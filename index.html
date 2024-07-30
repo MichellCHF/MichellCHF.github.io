@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!--cdn bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--link para relacionar con mi scc-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Presentación</title>
+</head>
+<body>
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+              <span class="fs-4">Michell Chavez Flores</span>
+            </a>
+      
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a id="nav-buttom" href="#sobre-mi" class="nav-link active" aria-current="page">Yo</a></li>
+              <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+              <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+              <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+              <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+          </header>
+
+    <main>
+
+        <!--Sección de inicio sobre mi-->
+    
+        <section id="sobre-mi">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="assets/Michell.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="300" height="0" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Michell Chavez Flores</h1>
+              <h2>  Licenciada en Biotecnología | Desarrolladora Fronted Jr.</h2>
+              <p class="lead">Estudiante de licenciatura en Biotecnología, líder STEAM en áreas como ciencia, tecnología y creatividad en la Cátedra Mujer, Liderazgo y Futuro STEAM. Participante de programas de pre-incubación como Santander X Explorer Es, Formación Empresarial Universitaria y Diseño de Proyectos Basados en Modelos de Negocios Circulares, con un proyecto biodegradable a parir de bagazo de maíz. Interesada en áreas como la bioinformatica, emprendimiento, medicina personalizada y medio ambiente.  </p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Conoce mi trayectoría</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Sección de las habilidades-->
+        <section id="habilidades">
+            <div class="container px-4 py-5" id="hanging-icons">
+                <h2 class="pb-2 border-bottom">Habilidades</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                
+                        <!--ícono de laptop-->
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
+                      <p>He creado sitios web responsivos aplicando los conocimientos obtenidos durante el bootcamp de Tecnolochicas PRO.</p>
+
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-boxes"></i>
+
+                
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-body-emphasis">Innovación en productos</h3>
+                      <p>Me he interesado en el desarrollo de productos como alternativa a productos que contaminan, entre ellos un bioplástico para alimentos. </p>
+                     
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="icon-square text-body-emphasis bg-body-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                        <i class="bi bi-gender-female"></i>
+                      
+                    </div>
+                    <div>
+                      <h3 class="fs-2 text-body-emphasis">Liderazgo femenino</h3>
+                      <p>Obtuve una certificación para reconocer a las mujeres por su liderazgo y empoderamiento en las áreas STEAM, mediante mentorías grupales y un ejercicio de liderazgo STEAM para el impacto social.</
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <!--sección para proyectos-->
+        <section id="proyectos">
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="pb-2 border-bottom">Proyectos</h2>
+            
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                  <div class="col">
+                    <div class="img-proyecto1 card card-cover h-53 overflow-hidden text-bg-white rounded-4 shadow-lg" style="background-image: url('assets/Captura\ de\ pantalla\ \(3\).png');">
+                        
+                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <li class="me-auto">
+                            <img src="assets/Captura de pantalla (3).png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                          </li>
+                          <li class="d-flex align-items-center me-3">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                            <small>Earth</small>
+                          </li>
+                          <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                            <small>3d</small>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                    <div class="col">
+                      <div class="img-proyecto1 card card-cover h-53 overflow-hidden text-bg-white rounded-4 shadow-lg" style="background-image: url('assets/Captura\ de\ pantalla\ \(3\).png');">
+                          
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                          <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
+                          <ul class="d-flex list-unstyled mt-auto">
+                            <li class="me-auto">
+                              <img src="assets/Captura de pantalla (3).png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                            </li>
+                            <li class="d-flex align-items-center me-3">
+                              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                              <small>Earth</small>
+                            </li>
+                            <li class="d-flex align-items-center">
+                              <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                              <small>3d</small>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                  
+            
+            
+                    <div class="col">
+                        <div class="img-proyecto1 card card-cover h-53 overflow-hidden text-bg-white rounded-4 shadow-lg" style="background-image: url('assets/Captura\ de\ pantalla\ \(3\).png');">
+                            
+                          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Pinterest</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                              <li class="me-auto">
+                                <img src="assets/Captura de pantalla (3).png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                              </li>
+                              <li class="d-flex align-items-center me-3">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                                <small>Earth</small>
+                              </li>
+                              <li class="d-flex align-items-center">
+                                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                                <small>3d</small>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+
+
+        </section>
+
+        <!--sección para carousel-->
+        <section id="testimonios" class="mt-5">
+            <h2 class="pb-2 mb-5 border-bottom">Testimonios</h2>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!--card carousel-->
+                  <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                         <div class="card align-items-center border-0" style="width: 10rem;">
+                            <img src="assets/namjoon.jpg" class="rounded-circle card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-center"> Card tittle</h5>
+                                <div class="card-header">
+                                Featured
+                            </div>
+                          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                    <div class="card align-items-center border-0" style="width: 10rem;">
+                        <img src="assets/namjoon.jpg" class="rounded-circle card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Card tittle</h5>
+                            <div class="card-header">
+                                Featured
+                            </div>
+                          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                
+                  <div class="carousel-item">
+                    <!--imagen-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>          
+        </section>
+
+        <!--sección de contacto-->
+        <section id="contacto">
+
+            <div class="container my-5">
+                <div class="p-5 text-center bg-body-tertiary rounded-3">
+                  <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+                  <h1 class="text-body-emphasis">Contacto</h1>
+                  <p class="col-lg-8 mx-auto fs-5 text-muted">
+                    This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
+                  </p>
+                  <div class="d-inline-flex gap-2 mb-5">
+                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+                      Call to action
+                      <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+                    </button>
+                    <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                      Secondary link
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+        </section>
+
+          
+
+    </main>
+
+    <!--sección para instagram-->
+       
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+
+    <!--script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
